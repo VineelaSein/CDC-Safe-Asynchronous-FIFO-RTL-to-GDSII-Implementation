@@ -1,0 +1,3 @@
+*.vvp
+*.vcd
+synth/async_fifo_netlist.v

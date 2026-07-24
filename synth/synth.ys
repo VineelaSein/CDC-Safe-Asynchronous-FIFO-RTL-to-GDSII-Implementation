@@ -1,0 +1,8 @@
+read_verilog rtl/gray_ptr.v rtl/sync2ff.v rtl/dual_port_mem.v rtl/async_fifo.v
+hierarchy -check -top async_fifo
+proc
+opt
+techmap
+opt
+stat
+write_verilog synth/async_fifo_netlist.v
