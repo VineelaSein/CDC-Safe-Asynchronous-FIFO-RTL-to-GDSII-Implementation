@@ -1,0 +1,14 @@
+{
+    "DESIGN_NAME": "async_fifo",
+    "VERILOG_FILES": [
+        "dir::rtl/gray_ptr.v",
+        "dir::rtl/sync2ff.v",
+        "dir::rtl/dual_port_mem.v",
+        "dir::rtl/async_fifo.v"
+    ],
+    "CLOCK_PORT": "wclk",
+    "CLOCK_PERIOD": 10,
+    "FALLBACK_SDC_FILE": "dir::fifo.sdc",
+    "PDK": "sky130A",
+    "STD_CELL_LIBRARY": "sky130_fd_sc_hd"
+}
